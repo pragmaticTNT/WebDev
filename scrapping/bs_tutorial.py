@@ -31,10 +31,26 @@ def tryNames(f):
             print("Google services failed on " + name)
             break
 
-def main():
-    f   = open("nameResults.txt", 'a')
+def saveNamesToFile(fileName):
+    f   = open(fileName, 'a')
     tryNames(f)
     f.close()
+
+def processNames(fileName, show):
+    results = []
+    with open(fileName, 'r') as f:
+        for line in f:
+            strList = line.split()
+            results.append((strList[0], int(strList[1])))
+    results = sorted(results, key = lambda name: name[1])
+    for i in range(show):
+        print(results[i][0], results[i][1])
+
+
+def main():
+    fileName = "nameResults.txt"
+#   saveNamesToFile(fileName)
+    processNames(fileName, 5)
 
 if __name__ == "__main__":
     main()
