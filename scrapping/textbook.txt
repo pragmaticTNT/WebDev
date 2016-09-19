@@ -1,0 +1,52 @@
+102, Introduction to Scientific Computer Programming
+105w, Strategies for Engineering Communication, Steve Whitmore, Susan Stevenson, John Wiley and Sons, 2002
+106, The Betterment of the Human Condition 2/E, John Jones, Pearson, 2011
+110, Introduction to Programming Using Visual Basic 2012(w/Visual Studio 2012 Express Edition DVD), D.I. Schneider , Pearson, 2013, 9th Edition&nbsp;<br /> Paper Bound w/CD-ROM
+120, Think Python - How to Think Like a Computer Scientist - Python 3, Allen Downey, Green Tea Press, 2015 <br />Free Download: http://www.greenteapress.com/thinkpython2/thinkpython2.pdf <br />Also available in Kindle version and as paperback
+125, Introduction to Computing Science and Programming II
+127, Computing Laboratory
+128, Introduction to Computing Science and Programming for Engineers
+130, Problem Solving with C++, Ninth Edition, Walter Savitch and Kevin Mock, Addison-Wesley, 2014<br />Ebook version is about half the cost of the paper version
+165, No Textbooks.
+166, An Animated Introduction to Programming
+225, Data Structures &amp; Algorithms in C++, 2nd Ed., Goodrich, Tamassia and Mount, Wiley, 2011
+275, Software Engineering I
+276, Software Engineering, Ian Sommerville, Addison Wesley, 2015,&nbsp; 10th Edition
+295, Computer SystemsMasteringEngineering with Pearson eText -- Standalone Access Card -- for Computer Systems: A Programmer's Perspective, 3/E, Randal E. Bryant, David R. O'Halloran, Pearson, 2016<br /><br /> <strong>Can be ordered directly online from Pearson or from the Bookstore</strong>
+300, Operating Systems I
+307, Introduction to Algorithms (3rd Edition), T.H. Cormen, C.E. Leiserson, R.L. Rivest, C. Stein, MIT Press, 2009
+308, Introduction to the Theory of Computation, Michael Sipser, Cengage Learning, 2012, 3rd Edition
+310, Artificial Intelligence: A Modern Approach (3rd Edition), Stuart J. Russell, Peter Norvig, Prentice Hall, 2010
+320, CMPT 320 Course Pack, Compiled by Steven Pearce, SFU Bookstore
+354, Database Systems I
+361, Interactive Computer Graphics with WebGL, Edward Angel, Dave Shreiner, Addison Wesley<br /> 7th Edition
+363, User Interface Design
+365, Fundamentals of Multimedia 2nd Ed., Z.-N. Li, M.S. Drew, and J.C. Liu, Springer, 2014<br /> SFU students may download text.
+371, Computer Networking: A top-down Approach 7/E, Kurose and Ross, Pearson, 2016
+373, Code Complete, 2nd Edition, Steve McConnell, Microsoft Press, 2004
+376w, <ul>
+<li>Style: Lessons in Clarity and Grace (12th Edition), Joseph M. Williams, Longman, 2017</li>
+</ul>
+379, Engineering a Compiler , Cooper, Torczon, Morgan Kaufmann, 2011, 2nd Edition
+383, Comparative Programming Languages
+405, Design and Analysis of Computing Algorithms
+411, Knowledge Representation
+413, Computational Linguistics
+415, Special Research Projects
+417, Intelligent Systems
+419, Pattern Recognition and Machine Learning, Christopher M. Bishop, Springer, 2006
+426, Practicum I
+427, Practicum II
+428, Practicum III
+429, Practicum IV
+430, Practicum V
+431, Distributed Systems
+433, Embedded Systems
+441, Computational Biology
+454, Database Management Systems, Raghu Ramekrishnan, Johannes Gehrke, McGraw-Hill,&nbsp; 3rd Edition
+470, Web-based Information Systems
+471, Internetworking with TCP/IP, Volume 1 Principles, Protocols &amp; Architecture, 6th Edition, Douglas E. Comer, Prentice Hall, 2014
+473, Software Quality Assurance
+475, Requirements Engineering
+477, Logic in Computer Science: Modelling and Reasoning about Systems, Michael R. A. Huth and Mark D. Ryan, Cambridge University Press, 2004<br /><br />Available Online: http://akademik.maltepe.edu.tr/~kadirerdem/Algoritma%20Do%C4%9Frulama%20ve%20Performans%20Analizi/5%20Lectura%202.pdf
+498, Honours Research Project
