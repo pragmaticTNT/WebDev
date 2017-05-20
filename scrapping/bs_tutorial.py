@@ -1,35 +1,43 @@
 import requests
 import string
+import time
 from bs4 import BeautifulSoup
 
 def tryNames(f):
     letters = "bcdfghjklmnpqrstvwxyz"
+    numbers = "0123456789"
+    alphnum = letters + numbers
     urlBase = "https://www.google.ca/search?q="
-    urlSpace= [x+y for x in letters for y in letters]
+    #urlSpace= [w+x+y+z for w in letters for x in alphnum for y in alphnum for z in alphnum]
+    urlSpace = [x for x in letters]
 
     for u in urlSpace:
-        name    = "xyl" + u
+        name = u
+        tryName = True
         print("Processing " + name + "...")
 
-        try:
-            url     = urlBase + name
-            r       = requests.get(url)
+        while tryName:
+            try:
+                url     = urlBase + name
+                r       = requests.get(url)
 
-            soup    = BeautifulSoup(r.content, "html.parser")
-            resultStats = soup.find_all("div", {"id":"resultStats"})
+                soup    = BeautifulSoup(r.content, "html.parser")
+                resultStats = soup.find_all("div", {"id":"resultStats"})
 
-            result  = resultStats[0].text
+                result  = resultStats[0].text
 
-            temp    = result.split()
-            val     = 1
-            if result[0].isnumeric():
-                val = 0
+                words   = result.split()
+                numInd  = 1     # the google string is "About N results" so "N" is at index 1
+                if result[0].isnumeric():
+                    numInd = 0
+                strRep = "".join([c for c in words[numInd] if c != ','])    # remove commas
+                f.write(name + ": " + strRep + '\n')
 
-            strRep = "".join([c for c in temp[val] if c != ','])
-            f.write(name + ": " + strRep + '\n')
-        except:
-            print("Google services failed on " + name)
-            break
+                print(name + ": " + strRep + '\n')
+                time.sleep(1)   # delay for one second
+                tryName = False
+            except:
+                print("Google services failed on " + name + ". Trying again.")
 
 def saveNamesToFile(fileName):
     f   = open(fileName, 'a')
@@ -48,10 +56,9 @@ def processNames(fileName, show):
 
 
 def main():
-    fileName = "nameResults.txt"
-#   saveNamesToFile(fileName)
-    processNames(fileName, 5)
+    fileName = "moreNameResults.txt"
+    saveNamesToFile(fileName)
+#    processNames(fileName, 5)
 
 if __name__ == "__main__":
     main()
-
